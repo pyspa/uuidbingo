@@ -9,9 +9,9 @@ uuidを指定して、uuidでビンゴができる楽しいゲームです。忘
 
 ![ビンゴシート例](./sample.png)
 
-お手持ちのUUID生成器を使ってUUIDを生成し、UUIDが一致したときに、そのマスをチェックしてくだしさい。縦横斜め、いずれかのラインのすべてのマスがチェックされると、あなたの勝ちです。
+お手持ちのUUID生成器を使ってUUIDを生成し、UUIDが一致したときに、そのマスをチェックしてください。縦横斜め、いずれかのラインのすべてのマスがチェックされると、あなたの勝ちです。
 
-ビンゴのマスで作られるUUIDは、[NewSha1関数](https://pkg.go.dev/github.com/google/uuid#NewSHA1) を使った、Version 5 UUIDです。これに合わせたUUID生成器を使用してください。
+ビンゴのマスで作られるUUIDは、[NewSha1関数](https://pkg.go.dev/github.com/google/uuid#NewSHA1) を使った、Version 5 UUIDです。これに合わせたUUID生成器を使用するのがおすすめです。
 
 
 ## サーバーの始め方
